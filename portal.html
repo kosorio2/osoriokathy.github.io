@@ -31,13 +31,13 @@
     </main>
 
     <footer class="footer">
-        <p> &copy; 2020 | Kathy Osorio| Utah | <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a> | Date: <span id="currentdate"></span> </p>
+        <p> &copy; 2020 | Kathy Osorio| Utah | <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a> | Modified: <span id="Modified"></span> </p>
 
     </footer>
         
     <script>
-        const options = {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'}; 
-        document.getElementById('currentdate').textContent = new Date().toLocaleDateString('en-US', options); 
+        let Lm= document.lastModified; 
+        document.getElementById("Modified").innerHTML = Lm; 
 
     </script> 
 
