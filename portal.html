@@ -31,13 +31,15 @@
     </main>
 
     <footer>
-        <p> &copy; 2020 | Kathy Osorio| Utah | <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a> | Modified: <span id="Modified"></span> </p>
+        <p> &copy; <span id="Year"></span> | Kathy Osorio| Utah | <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a> | Modified: <span id="Modified"></span> </p>
 
     </footer>
         
     <script>
         let Lm= document.lastModified; 
+        let Y= new Date().getFullYear(); 
         document.getElementById("Modified").innerHTML = Lm; 
+        document.getElementById("Year").innerHTML = Y; 
 
     </script> 
 
