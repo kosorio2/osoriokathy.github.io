@@ -1,17 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 @import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
 
-@media only screen and (min-width:600px) {
-    main {
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-@media only screen and (min-width: 1100px) {
-    main {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-}
 
 body {
     display: grid; 
@@ -45,7 +34,7 @@ section {
     border-radius: 5px;
 }
 
-h3 {
+h2 {
     display: grid; 
     text-align: center;
     padding: 1rem; 
@@ -58,8 +47,24 @@ p {
     text-align: center;
 }
 
+#name {
+    font-size: 1.5em;
+}
+
 .link {
     display: grid; 
     text-align: center; 
+}
+
+@media only screen and (min-width:600px) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
 
