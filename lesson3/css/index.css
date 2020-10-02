@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 body {
     background-color: rgb(226, 229, 229);
@@ -29,6 +31,10 @@ nav a:hover {
     color: white; 
 }
 
+h2 {
+    font-size: 35px; 
+}
+
 header,
 nav,
 main,
@@ -37,11 +43,26 @@ footer {
     margin: 0 auto;
 }
 
-#footerlink {
-    color: black; 
+footer {
+    font-family:  'Monserrat', sans-serif;
+    background-color: gray; 
+    text-align: center;
+    box-shadow: 0 2px 15px gray; 
+    color: white;
+}
+
+.footerlink {
+    color: white; 
+}
+
+header {
+    font-size: 40px;
+    font-family: 'Monserrat', sans-serif; 
 }
 
 main {
+    font-family: 'Crimson Text', sans-serif;
+    font-size: 18px;
     grid-gap: 5px; 
     padding: 5px; 
 }
