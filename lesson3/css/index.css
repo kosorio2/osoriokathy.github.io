@@ -72,6 +72,12 @@ main {
     border-style: solid;
     border-radius: 3px;
 }
+.typography {
+    max-width: 100%;
+    margin: 0 auto; 
+    border: 1px solid; 
+    display: block; 
+}
     
 
 
