@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    background-color: #fbfefb;
+}
+nav {
+    background-color: #d0b8ac; 
+    text-align: center;
+    box-shadow: 0 2px 15px; 
+}
+
+nav ul {
+    margin: 0; 
+    padding: 0; 
+    list-style: none; 
+    overflow: hidden;
+}
+
+nav li a {
+    display: block; 
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;   
+    font-size: 18px;
+    color: gray; 
+}
+
+nav a:hover {
+    background-color: #efe5dc;
+    color: white; 
+}
+
+header,
+nav,
+main,
+footer {
+	max-width: 1500px;
+    margin: 0 auto;
+}
+
+footer {
+    font-family:  'Monserrat', sans-serif;
+    background-color: #d0b8ac;
+    text-align: center;
+    color: gray;
+    font-weight: bold
+}
+
+.footerlink {
+    color: gray; 
+}
+
+header {
+    font-size: 40px;
+    font-family: 'Monserrat', sans-serif; 
+    font-weight: bold
+}
+
+main {
+    font-family: 'Crimson Text', sans-serif;
+    font-size: 18px;
+    grid-gap: 5px; 
+    padding: 5px; 
+}
+
+.personas {
+    padding: 0.5em;
+    border-style: solid;
+    border-radius: 3px;
+}
+.typography {
+    max-width: 100%;
+    margin: 0 auto; 
+    border: 1px solid; 
+    display: block; 
+}
+
+#image {
+    max-width: 100%;
+    margin: 0 auto; 
+    border: 1px solid; 
+    display: block; 
+}
+
+#logo {
+    display: flex;
+    justify-content: space-evenly;
+}
+    
+
+
+ @media only screen and (min-width: 60em) {
+        nav a {
+            font-size: 1.1rem;
+        }
+        main {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+ }
+    
