@@ -13,9 +13,15 @@ header {
     font-family: 'Monserrat', sans-serif; 
 }
 
-.container {
+.header {
     display: flex; 
     justify-content: flex-start;
+}
+
+
+.wrapper {
+    margin: auto;
+    max-width: 75rem;
 }
 
 main {
@@ -41,6 +47,7 @@ nav {
 
 nav ul {
     list-style: none;
+    overflow: hidden; 
     padding: 0; 
     margin: 0; 
 }
@@ -99,8 +106,10 @@ nav ul li.active a{background-color: rgba(0,0,0,0.2); color: #fff;}
 
 nav ul.hide {display: none;}
 
+
 .clearfix:after {
     content: "";
     display: table;
     clear: both;
   }
+
