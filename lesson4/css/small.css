@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+    background-color: #fbfefb;
+}
+
+header {
+    font-family: 'Monserrat', sans-serif; 
+}
+
+.container {
+    display: flex; 
+    justify-content: flex-start;
+}
+
+main {
+    font-family: 'Crimson Text', sans-serif;
+    font-size: 18px;
+    grid-gap: 5px; 
+    padding: 5px; 
+}
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none; 
+    font-size: 1.6rem;
+    color: #555; 
+}
+nav {
+    background-color: #d0b8ac; 
+    text-align: left; 
+    padding: .5em;
+    box-shadow: 0 2px 15px; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0; 
+    margin: 0; 
+}
+
+nav li a {
+    display: block; 
+    text-align: center; 
+    padding: 1rem; 
+    text-decoration: none;
+    font-size: 18px; 
+    color: gray; 
+}
+
+nav ul li a {
+    display: block; 
+    padding: .8rem 2%; 
+    text-decoration: none;
+    color: #000; 
+    border-top: 1px solid rgba(0,0,0,0.3);
+}
+
+nav ul li a:hover {
+    background-color: #efe5dc;
+    color: black; 
+}
+
+.box {
+    background-color:  #fbfefb; 
+    width: 600px; 
+    border: 5px solid black; 
+    padding: 25px;
+    margin: 20px; 
+}
+
+.wrapper {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+footer {
+    font-family:  'Monserrat', sans-serif;
+    background-color: #d0b8ac;
+    text-align: center;
+    padding: 0.5em; 
+    color: gray;
+    font-weight: bold
+}
+
+.footerlink {
+    color: gray; 
+}
+
+
+nav ul li.active a{background-color: rgba(0,0,0,0.2); color: #fff;}
+
+nav ul.hide {display: none;}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
