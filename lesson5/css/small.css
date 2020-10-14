@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+body {
+    background-color: #fbfefb;
+}
+
+nav {
+    background-color: #d0b8ac; 
+    text-align: center; 
+    padding: .5em;
+    box-shadow: 0 2px 15px; 
+}
+
+nav ul {
+    overflow: hidden; 
+    padding: 0; 
+    margin: 0; 
+    list-style: none;
+}
+
+header {
+    font-family: 'Monserrat', sans-serif; 
+}
+
+.header {
+    display: flex; 
+    justify-content: center;
+}
+
+
+.wrapper {
+    margin: auto;
+    width: 100%;
+}
+
+main {
+    font-family: 'Crimson Text', sans-serif;
+    font-size: 18px;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none; 
+    font-size: 1.6rem;
+    color: #555; 
+}
+
+nav li a {
+    display: block; 
+    text-align: center; 
+    padding: 1rem; 
+    text-decoration: none;
+    font-size: 18px; 
+    color: gray; 
+}
+
+nav ul li a {
+    display: block; 
+    padding: .8rem 2%; 
+    text-decoration: none;
+    color: #000; 
+
+}
+
+nav ul li a:hover {
+    background-color: #efe5dc;
+    color: black; 
+    
+}
+.box {
+    background-color:  #fbfefb; 
+    border: 5px solid black; 
+    padding: 25px;
+    margin: 20px; 
+}
+
+footer {
+    font-family:  'Monserrat', sans-serif;
+    background-color: #d0b8ac;
+    text-align: center;
+    max-width: 960px;
+    margin: 0 auto; 
+    padding: 0.5em; 
+    color: gray;
+    font-weight: bold
+}
+
+.footerlink {
+    color: gray; 
+}
+
+nav ul li.active a{background-color: rgba(0,0,0,0.2); color: #fff;}
+
+nav ul.hide {display: none;}
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /*Lesson 5 Updates */ 
+
+
