@@ -7,20 +7,22 @@
     }
     nav ul.hide {
         display: flex;
-        justify-content: space-between;
-    }
-
-    nav ul {
-        margin-left: 2%;
+        justify-content: space-around;
     }
 
     nav ul li {
-        float: left; 
+        display: flex;
+        justify-content: space-around;
+
     }
 
     nav ul li a{border: none;
-    padding: .8rem 1rem; 
+        padding: .8rem 1rem; 
+  
     }
 
+.contact-information {
+    height: 250px;
+}
 }
    

@@ -7,10 +7,10 @@ body {
 }
 
 nav {
-    background-color: #d0b8ac; 
+    background-color: #427aa1; 
     text-align: center; 
     padding: .5em;
-    box-shadow: 0 2px 15px; 
+    box-shadow: 0 2px 10px; 
 }
 
 nav ul {
@@ -48,7 +48,7 @@ nav button {
     background-color: transparent;
     border: none; 
     font-size: 1.6rem;
-    color: #555; 
+    color: #d9f0ff 
 }
 
 nav li a {
@@ -57,42 +57,42 @@ nav li a {
     padding: 1rem; 
     text-decoration: none;
     font-size: 18px; 
-    color: gray; 
+    color: #d9f0ff; 
 }
 
 nav ul li a {
     display: block; 
-    padding: .8rem 2%; 
+    padding: .8rem 2%;
     text-decoration: none;
-    color: #000; 
+    color:  #eaebed; 
 
 }
 
 nav ul li a:hover {
-    background-color: #efe5dc;
+    background-color: #d9f0ff;
     color: black; 
     
 }
-.box {
+.contact-information {
     background-color:  #fbfefb; 
-    border: 5px solid black; 
-    padding: 25px;
-    margin: 20px; 
+    border: 1px solid black; 
+    padding: 50px;
 }
 
 footer {
     font-family:  'Monserrat', sans-serif;
-    background-color: #d0b8ac;
+    background-color: #427aa1;
+    border: 1px solid black;
     text-align: center;
     max-width: 960px;
     margin: 0 auto; 
     padding: 0.5em; 
-    color: gray;
-    font-weight: bold
+    color: #eaebed;
+
 }
 
 .footerlink {
-    color: gray; 
+    color: #eaebed; 
 }
 
 nav ul li.active a{background-color: rgba(0,0,0,0.2); color: #fff;}
@@ -107,5 +107,66 @@ nav ul.hide {display: none;}
   }
 
   /*Lesson 5 Updates */ 
+
+.mainimage {
+    position: relative;
+    border: 1px;
+}
+.mountainimage {
+    margin: 10px auto;
+    border: 1px solid #333; 
+    width: 100%; 
+    height: 300px; 
+}
+
+.weathersummary {
+    color: black;
+    position: absolute; 
+    top: 25px;
+    left: 20px; 
+    padding: 0.5rem; 
+    border: 2px solid;
+    background: radial-gradient(rgb(254, 255, 255), rgb(61, 69, 73));
+    opacity: .8;
+    box-shadow: 0 0 30px white;
+
+}
+
+.forecast{
+    display: none;
+}
+.article {
+    background-color:  #fbfefb; 
+    border: 1px solid black; 
+    padding: 25px;
+    margin: 20px; 
+    display: 100%; 
+}
+.pumpkin {
+    float: right; 
+    height: 150px;
+}
+#article-title {
+    font-family:  'Monserrat', sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+.map {
+    display: none;
+}
+.information{
+    list-style-type: none;
+    text-align: left;
+    flex-direction: column; 
+    font-size: 25px;
+
+}
+
+#pop-up{
+    background-color: lightblue;
+    text-align: center;
+    display: none;
+}
+
 
 
