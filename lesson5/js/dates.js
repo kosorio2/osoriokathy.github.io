@@ -11,6 +11,6 @@ let output = day[date.getDay()] + ", " + " " + date.getDate() + " " + months[dat
 
 document.getElementById('date').innerHTML = output; 
 
-if (date.getDay() == 5) {
+if (date.getDay() == 6) {
     document.getElementById("pop-up").style.display="block"; 
 }
