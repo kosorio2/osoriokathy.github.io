@@ -139,8 +139,7 @@ nav ul.hide {display: none;}
     background-color:  #fbfefb; 
     border: 1px solid black; 
     padding: 25px;
-    margin: 20px; 
-    display: 100%; 
+    margin: 20px;  
 }
 .pumpkin {
     float: right; 
