@@ -43,6 +43,11 @@ main {
     padding: 10px;
 }
 
+nav a.active {
+    background-color: #d9f0ff;
+    color: black; 
+}
+
 nav button {
     margin: .2rem 2%;
     background-color: transparent;
