@@ -13,4 +13,25 @@ document.getElementById('date').innerHTML = output;
 
 if (date.getDay() == 5) {
     document.getElementById("pop-up").style.display="block"; 
+
+function doInputOutput() {
+    let temp = parseFloat(document.getElementById('temperature').value); 
+    let wind = parseFloat(document.getElementById('speed').value); 
+    let answer = windChill(temp, wind); 
+
+    document.getElementById('output').innerHTML = answer.toFixed(2);
+} 
+
+function windChill(tempF, speed) {
+    let windChill = 35.74 + (0.6215*tempF) - 35.75 * (Math.pow(speed, 0.16)) + ((0.4275 * tempF) * (Math.pow(speed, 0.16))); 
+    
+    return windChill; 
+}
+
+WebFont.load({
+    google: {
+      families: ['Droid Sans', 'Droid Serif']
+    }
+  });
+  
 }
