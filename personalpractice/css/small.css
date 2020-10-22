@@ -1,101 +1,90 @@
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+/*----------- BODY --------------*/
 body {
-    background-color: #fbfefb;
-}
-nav {
-    background-color: #d0b8ac; 
-    text-align: center;
-    box-shadow: 0 2px 15px; 
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
 }
 
-nav ul {
-    margin: 0; 
-    padding: 0; 
-    list-style: none; 
-    overflow: hidden;
-}
 
-nav li a {
-    display: block; 
-    text-align: center;
-    padding: 1rem;
-    text-decoration: none;   
-    font-size: 18px;
-    color: gray; 
-}
-
-nav a:hover {
-    background-color: #efe5dc;
-    color: white; 
-}
-
-header,
-nav,
-main,
-footer {
-	max-width: 1500px;
-    margin: 0 auto;
-}
-
-footer {
-    font-family:  'Monserrat', sans-serif;
-    background-color: #d0b8ac;
-    text-align: center;
-    color: gray;
-    font-weight: bold
-}
-
-.footerlink {
-    color: gray; 
-}
-
+/*----------- HEADER --------------*/
 header {
-    font-size: 40px;
-    font-family: 'Monserrat', sans-serif; 
-    font-weight: bold
+    padding: .5rem 2%;
+    background-color: #ddd;
+}
+header h1 {margin: 0;}
+header h2 {margin: 0; font-weight: normal;}
+header figure.logo {
+    float: left; 
+    margin: 0 2% 0 0;
 }
 
+/*----------- NAVIGATION --------------*/
+nav {
+    background-color: #666;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    float: left;
+    width: 25%;
+}
+nav ul li a {
+    display: block;
+    background-color: #444;
+    color: #eee;
+    border-left: 1px solid #777;
+    padding: .5rem 0;
+    text-decoration: none;
+    font-size: .9rem;
+    text-align: center;
+}
+nav ul li:first-child a {border-left: none;}
+
+nav ul li a:hover {
+    background-color: #eee;
+    color: #333;
+}
+nav ul li.active a {
+    background-color: #000;
+    color: #fff;
+}
+/*----------- MAIN --------------*/
 main {
-    font-family: 'Crimson Text', sans-serif;
-    font-size: 18px;
-    grid-gap: 5px; 
-    padding: 5px; 
+    padding: 0 2%;
+    min-height: 10rem;
 }
 
-.personas {
-    padding: 0.5em;
-    border-style: solid;
-    border-radius: 3px;
-}
-.typography {
-    max-width: 100%;
-    margin: 0 auto; 
-    border: 1px solid; 
-    display: block; 
-}
+main figure.myphoto {
+    width: 50%; 
+    margin: 0 0 0 2%;
+    float: right; 
 
-#image {
-    max-width: 100%;
-    margin: 0 auto; 
-    border: 1px solid; 
-    display: block; 
 }
-
-#logo {
-    display: flex;
-    justify-content: space-evenly;
-}
-    
+main figure.myphoto img {width: 100%;}
+main figure.myphoto figcaption {text-align: center; font-size: .75rem;;}
 
 
- @media only screen and (min-width: 60em) {
-        nav a {
-            font-size: 1.1rem;
-        }
-        main {
-            grid-template-columns: 1fr 1fr 1fr;
-        }
- }
-    
+/*----------- FOOTER --------------*/
+footer {
+    background-color: #ddd;
+    padding: .5rem 2%;
+    text-align: center;
+}
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}

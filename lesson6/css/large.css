@@ -1,0 +1,28 @@
+@media only screen and (min-width: 64rem) {
+
+    nav button {display: none;}
+
+    header {
+       width: 100%; 
+    }
+    nav ul.hide {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    nav ul li {
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    nav ul li a{border: none;
+        padding: .8rem 1rem; 
+  
+    }
+
+.contact-information {
+    height: 250px;
+}
+}
+   
