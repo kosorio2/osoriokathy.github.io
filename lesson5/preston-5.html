@@ -16,6 +16,10 @@
 <body>
     <div class="wrapper">
         <header>
+            <filesMatch ".(jpg|jpeg|png|gif|ico)$">
+                Header set Cache-Control "max-age=31536000, public"
+                </filesMatch>
+                
             <section class="header">
                 <img id="logo" src="images/weathericon.png" alt="stormylogo">
                 <h1>Elemental Forecast</h1>

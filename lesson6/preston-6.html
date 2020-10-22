@@ -40,7 +40,13 @@
             <p id="pop-up">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park.</p>
             <h2>Preston Idaho</h2>
             <div class="mainimage">
-                <img class="mountainimage" src="images/simplemountain.jpg" alt="mountain portrait">
+                <picture class="photoA">
+                    <source media="(max-width: 425px)" srcset="images/sunrise-425px.webp">
+                    <source media="(max-width: 512px)" srcset="images/sunrise-512px.webp">
+                    <source media="(max-width: 960px)" srcset="images/sunrise-960px.webp">
+                    <img  class="mountainimage" src="images/sunrise-riginal.jpeg" alt="sunrise photo">
+                </picture>
+
                 <section class="weathersummary">
                     <h3><u>Weather Summary</u></h3>
                     <p><b>Currently: 40 &deg;F</b></p>
