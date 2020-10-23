@@ -29,10 +29,4 @@ function windChill(tempF, speed) {
 }
 doInputOutput(); 
 
-WebFont.load({
-    google: {
-      families: ['Droid Sans', 'Droid Serif']
-    }
-  });
-  
 }
