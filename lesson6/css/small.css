@@ -42,6 +42,9 @@ main {
     margin: 0 auto;
     padding: 10px;
 }
+.sunny {
+    width: 100%; 
+}
 
 nav a.active {
     text-decoration: underline;
@@ -120,8 +123,8 @@ nav ul.hide {display: none;}
 .mountainimage {
     margin: 10px auto;
     border: 1px solid #333; 
-    height: 300px;
 }
+
 
 .weathersummary {
     color: black;

@@ -15,11 +15,11 @@ if (date.getDay() == 5) {
     document.getElementById("pop-up").style.display="block"; 
 
 function doInputOutput() {
-    let temp = parseFloat(document.getElementById('temperature').value); 
-    let wind = parseFloat(document.getElementById('speed').value); 
+    let temp = parseFloat(document.getElementById('temperature').innerText); 
+    let wind = parseFloat(document.getElementById('speed').innerText); 
     let answer = windChill(temp, wind); 
 
-    document.getElementById('output').innerHTML = answer.toFixed(2);
+    document.getElementById('output').innerHTML = answer.toFixed(0);
 } 
 
 function windChill(tempF, speed) {
@@ -27,6 +27,7 @@ function windChill(tempF, speed) {
     
     return windChill; 
 }
+doInputOutput(); 
 
 WebFont.load({
     google: {

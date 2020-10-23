@@ -43,19 +43,19 @@
             <div class="mainimage">
 
                 <picture>
-                    <source media="(max-width: 512px)" srcset="images/sunrise-512px.jpg 512w">
-                    <source media="(max-width: 960px)" srcset="images/sunrise-960px.jpg 960w">
-                    <source media="(max-width: 1200px)" srcset="images/sunrise-1200px.jpg 1200w">
-                    <img src="images/sunrise-original.jpg" alt="Sunrise Image">
+                    <source media="(max-width: 512px)" srcset="images/sunrise-425px.jpg 425w">
+                    <source media="(max-width: 960px)" srcset="images/sunrise-512px.jpg 512w">
+                    <source media="(max-width: 1200px)" srcset="images/sunrise-960px.jpg 960w">
+                    <img class="sunny" src="images/sunrise-original.jpg" alt="Sunrise Image">
                 </picture>
 
                 <section class="weathersummary">
                     <h3><u>Weather Summary</u></h3>
                     <p><b>Currently: 40 &deg;F</b></p>
-                    <p><b>Hight: 50 &deg;F</b></p>
-                    <p><b>Wind Chill: 35 &deg;F</b></p>
+                    <p><b>High: <span id='temperature'>50</span> &deg;F</b></p>
+                    <p><b>Wind Chill: <span id='output'>N/A</span> &deg;F</b></p>
                     <p><b>Humidity: 5%</b></p>
-                    <p><b>Wind Speed: 5 MPH</b></p>
+                    <p><b>Wind Speed: <span id='speed'>5</span> MPH</b></p>
                 </section>
 
             </div>
