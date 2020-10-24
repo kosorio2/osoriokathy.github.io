@@ -14,6 +14,8 @@ document.getElementById('date').innerHTML = output;
 if (date.getDay() == 5) {
     document.getElementById("pop-up").style.display="block"; 
 
+}
+
 function doInputOutput() {
     let temp = parseFloat(document.getElementById('temperature').innerText); 
     let wind = parseFloat(document.getElementById('speed').innerText); 
@@ -27,6 +29,6 @@ function windChill(tempF, speed) {
     
     return windChill; 
 }
+
 doInputOutput(); 
 
-}
