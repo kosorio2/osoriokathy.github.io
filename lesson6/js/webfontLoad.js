@@ -1,5 +1,5 @@
 WebFont.load({
     google: {
-      families: ['Crimson']
+      families: ['Crimson Text']
     }
   });
