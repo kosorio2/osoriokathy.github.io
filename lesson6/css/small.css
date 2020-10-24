@@ -115,10 +115,11 @@ nav ul.hide {display: none;}
 
   /*Lesson 5 Updates */ 
 
-.mainimage {
+  .mainimage {
     position: relative;
     border: 1px;
 }
+
 .mountainimage {
     margin: 10px auto;
     border: 1px solid #333; 
