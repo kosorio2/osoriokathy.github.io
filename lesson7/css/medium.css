@@ -1,0 +1,51 @@
+@media only screen and (min-width: 750px) {
+
+    .forecast{
+        display: block;
+        width: 100%;
+    }
+    nav button {display: none;}
+
+    nav ul.hide {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav ul {
+        display: flex; 
+        margin-left: 2%;
+    }
+
+    nav ul li a{
+    border: none;
+    padding: .8rem 1rem; 
+    }
+
+    .table {
+        border: 1px solid black;
+        align-items: center;
+        text-align: center; 
+    }
+    td {
+        background-color: whitesmoke;
+        color: black; 
+    }
+    .contact-information {
+        height: 300px;
+    }
+    .map {
+        display: block;
+        float: right;
+        overflow: hidden;
+        height: 270px; 
+
+    }
+
+    .gallery {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .grid-item p {
+        width: 100%
+    }
+}
