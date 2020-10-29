@@ -12,7 +12,7 @@ image.onLoad = () => {image.removeAttribute('data-source');
 };
 
 if('IntersectionObserver' in window) {
-const imgObserver = new IntersectionObserver((items, imgObserver)=> {
+const imgObserver = new IntersectionObserver((items, imgObserver) => {
     items.forEach((item) => {
         if (item.isIntersecting) {
             loadImages(item.target); 
