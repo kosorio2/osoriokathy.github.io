@@ -186,6 +186,7 @@ nav ul.hide {display: none;}
 
 .grid-item {
     border: 2px solid black;
+    background-color: rgb(247, 247, 247);
 }
 
 .grid-item p {
@@ -196,7 +197,7 @@ nav ul.hide {display: none;}
 }
 
 .grid-item img {
-    width: 100%; 
+    width: 100%;
 }
 
 
