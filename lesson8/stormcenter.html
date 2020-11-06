@@ -63,14 +63,14 @@
                     <option value="Tornado">
                 </datalist>
 
-        
-                <div>     
+            
                 <div>
                 <label class="top" for="rating">Storm Severity
                 <div class="number">
                     <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                     <span id="ratingvalue">5</span></label>
                 </div>
+            </div>
 
                     
  
@@ -101,9 +101,10 @@
 
                 
                     <div>Are you in Danger
-                        <label class="sbs">Yes<input type="radio" name="danger" value="yes"></label>
-                        <label class="sbs">Maybe<input type="radio" name="danger" value="maybe"></label>
-                        <label class="sbs">No<input type="radio" name="danger" value="no"></label></div>
+                        <label class="sbs">Yes<input type="radio" name="danger" value="yes">
+                        <label class="sbs">Maybe<input type="radio" name="danger" value="maybe">
+                        <label class="sbs">No<input type="radio" name="danger" value="no">
+                    </div>
                     
 
                     <label class="top">Additional Information</label>
