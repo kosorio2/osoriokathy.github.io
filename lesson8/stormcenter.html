@@ -65,15 +65,15 @@
 
         
                         
-            <div class="range-items">
+                <div>
                     <label class="top" for="rating">Storm Severity
                 <div class="number">
                     <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                     <span id="ratingvalue">5</span></label>
                 </div>
-            </div>
+                </div>
                     
-
+ 
                 <datalist id="tickmarks">
                     <option value="0">
                     <option value="1">
@@ -88,8 +88,8 @@
                     <option value="10">
                 </datalist>
 
-                    <label class="top" for="region" id="region">Storm Region
-                        <select name="region" id="region">Storm Region
+                    <label class="top" for="location" id="location">Storm Region
+                        <select name="region" id="region">
                             <option value="" selected disabled>Select Region</option>
                             <option value="preston">Preston</option>
                             <option value="soda-springs">Soda Springs</option>
