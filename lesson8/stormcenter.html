@@ -54,7 +54,7 @@
                 <label class="top">Storm Date<input type="date" name="sdate"></label>
             
 
-                <label class="top" for="stormy" id="stormy">Storm Type<input list="storm-list" id="storm" name="storm"></input></label>
+                <label class="top" for="stormy" id="storm">Storm Type<input list="storm-list" id="stormy" name="storms"></label>
                 <datalist id="storm-list">
                     <option value="Flash Flood">
                     <option value="Hail">
@@ -66,7 +66,7 @@
         
                         
                 <div>
-                    <label class="top" for="rating">Storm Severity
+                <label class="top" for="rating">Storm Severity
                 <div class="number">
                     <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                     <span id="ratingvalue">5</span></label>
@@ -88,8 +88,8 @@
                     <option value="10">
                 </datalist>
 
-                    <label class="top" for="location" id="location">Storm Region
-                        <select name="region" id="region">
+                    <label class="top" for="location" id="area">Storm Region
+                        <select name="region" id="location">
                             <option value="" selected disabled>Select Region</option>
                             <option value="preston">Preston</option>
                             <option value="soda-springs">Soda Springs</option>
