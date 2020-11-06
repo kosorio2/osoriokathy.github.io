@@ -36,8 +36,10 @@ header {
 
 main {
     font-family: 'Crimson Text', sans-serif;
-    min-height: 20rem;
-    padding: 0 2%;
+    font-size: 18px;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 10px;
 }
 .sunny {
     width: 100%; 
@@ -234,12 +236,12 @@ form legend {
 form label.top, form div {
     display: block; 
     padding-top: 1rem;
-    font-size: .8rem;
+    font-size: 15px;
 }
 
 form label.top input, form label.top select {
     display: block;
-    font-size: 1rem;
+    font-size: 1rempx;
     border: solid 1px #999;
     border-radius: 4px;
     padding: .75rem;
@@ -248,8 +250,7 @@ form label.top input, form label.top select {
 }
 
 form label.sbs {
-    display: block;
-    padding: .75rem 0;
+    display: block; 
 }
 
 form input.submitBtn {
@@ -263,3 +264,19 @@ form input.submitBtn {
     max-width: 20rem;
 }
 
+.number {
+    display: flex;
+    font-size: 15px;
+}
+
+.storm-form {
+    display: flex;
+    justify-content: center;
+}
+textarea {
+    width: 100%;
+}
+
+.submitted {
+    text-align: center;
+}

@@ -37,16 +37,6 @@
 .grid-item:hover {
     box-shadow: 0 0 20px #555;
 }
-header, nav, main, footer {
-    max-width: 64rem;
-    margin:auto;
-}
-form label.sbs {
-    padding: .4rem 0;
-}
-form {
-    margin: 0 auto;
-    width: 250px;
-}
+
 }
    
