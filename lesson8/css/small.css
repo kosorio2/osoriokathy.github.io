@@ -264,9 +264,14 @@ form input.submitBtn {
     max-width: 20rem;
 }
 
-#rating {
+.number, .storm-severity{
     display: flex;
-    font-size: 15px;
+    font-size: 1rempx;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    width: 100%;
+    max-width: 20rem; 
 }
 
 .storm-form {
@@ -279,4 +284,8 @@ textarea {
 
 .submitted {
     text-align: center;
+}
+
+datalist {
+    width: 100%;
 }
