@@ -264,7 +264,7 @@ form input.submitBtn {
     max-width: 20rem;
 }
 
-.number {
+#rating {
     display: flex;
     font-size: 15px;
 }
