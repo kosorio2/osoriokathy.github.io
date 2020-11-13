@@ -9,7 +9,7 @@ fetch(requestURL)
   .then(function (jsonObject) {
     console.log(jsonObject);  // temporary checking for valid response and data parsing
 
-
+  
   const prophets = jsonObject['prophets'];
 
     for (let i = 0; i < prophets.length; i++ ) {
