@@ -146,7 +146,8 @@ nav ul.hide {display: none;}
     background-color:  #fbfefb; 
     border: 1px solid black; 
     padding: 25px;
-    margin: 20px;  
+    margin: 20px; 
+    display: block; 
 }
 .pumpkin {
     float: right; 
@@ -288,4 +289,22 @@ textarea {
 
 datalist {
     width: 100%;
+}
+
+/* lesson 9 */
+.left {
+    border-style: solid;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.photos, .snow {
+    max-width: 100%;
+}
+
+.outdoors {
+    max-width: 100%;
+}
+
+.h2 {
+    text-align: center;
 }

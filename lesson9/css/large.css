@@ -37,6 +37,11 @@
 .grid-item:hover {
     box-shadow: 0 0 20px #555;
 }
+.name {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 
 }
    
