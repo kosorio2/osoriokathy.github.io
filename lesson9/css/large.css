@@ -21,27 +21,31 @@
   
     }
 
-.contact-information {
+    .contact-information {
     height: 250px;
-}
-.gallery {
+    }
+    .gallery {
     padding: 30px;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2rem;
     background-color: #d9f0ff
-}
+    }
 
-.grid-item p {
+    .grid-item p {
     width: 100%
-}
-.grid-item:hover {
+    }
+    .grid-item:hover {
     box-shadow: 0 0 20px #555;
-}
-.name {
+    }
+    .name {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    }
+    .photos {
+        grid-template-columns: 1;
+        grid-row: 1;
+    }
 
 }
    

@@ -32,6 +32,7 @@ fetch(requestURL)
 
             image.setAttribute('src', 'images/' + towns[i].photo);
             image.setAttribute('class', "photos" )
+            image.setAttribute('alt', 'Images depicting the towns')
             image.apphend = towns[i].photo
 
             h2.textContent = towns[i].name;
