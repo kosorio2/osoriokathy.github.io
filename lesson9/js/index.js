@@ -11,6 +11,7 @@ fetch(requestURL)
     const towns = jsonObject['towns'];
     let card = document.createElement('section');
 
+
     for ( let i = 0; i < towns.length; i++) {
 
         if (towns[i].name == "Preston" || towns[i].name == "Fish Haven" || towns[i].name == "Soda Springs") {
@@ -20,8 +21,8 @@ fetch(requestURL)
             let div = document.createElement("div")
             div.setAttribute('class', "division")
             h2.setAttribute('class', "name")
-            let h4 = document.createElement('h4');
-            h4.setAttribute('class', "name")
+            let h5 = document.createElement('h5');
+            h5.setAttribute('class', "name")
             let article = document.createElement('article');
             article.setAttribute('class', "name")
             let p = document.createElement('p');
@@ -36,7 +37,7 @@ fetch(requestURL)
             image.apphend = towns[i].photo
 
             h2.textContent = towns[i].name;
-            h4.textContent = towns[i].motto; 
+            h5.textContent = towns[i].motto; 
             p.textContent = "Year Founded: " + towns[i].yearFounded; 
             p2.textContent = "Population: " + towns[i].currentPopulation;
             p3.textContent = "Annual Rainfall: " + towns[i].averageRainfall;
@@ -46,7 +47,7 @@ fetch(requestURL)
     
             
             div.appendChild(h2);
-            div.appendChild(h4);
+            div.appendChild(h5);
 
             div.appendChild(p)
             div.appendChild(p2)

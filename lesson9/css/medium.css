@@ -50,24 +50,28 @@
     }
 
 /* lesson 9 */
-    .left {
+    /* .left {
     display: grid;
     grid-template-columns: 1fr 1fr;
     border-style: solid;
     padding: 10px;
     gap: 10px;
-}
+} */
 
-article {
+.left {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.name {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-article:nth-child(odd) .photos {
+.name:nth-child(odd) .photos {
     grid-column: 1;
 }
 
-article:nth-child(odd) .division {
+.name:nth-child(odd) .division {
     padding-left: 10px;
     grid-column: 2;
     grid-row: 1;

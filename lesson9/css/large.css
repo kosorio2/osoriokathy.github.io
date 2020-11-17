@@ -37,15 +37,33 @@
     .grid-item:hover {
     box-shadow: 0 0 20px #555;
     }
-    .name {
+    
+    section {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    
     }
+
+
+    .left {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center; 
+        
+    }
+
+    .title {
+        text-align: center;
+    }
+
+
+    
+    /*
     .photos {
         grid-template-columns: 1;
         grid-row: 1;
-    }
+    } */ 
 
 }
    

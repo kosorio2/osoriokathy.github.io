@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+
 body {
     background-color: #fbfefb;
 }
@@ -146,8 +147,7 @@ nav ul.hide {display: none;}
     background-color:  #fbfefb; 
     border: 1px solid black; 
     padding: 25px;
-    margin: 20px; 
-    display: block; 
+    margin: 20px;  
 }
 .pumpkin {
     float: right; 
@@ -291,7 +291,7 @@ datalist {
     width: 100%;
 }
 
-/* lesson 9 */
+/* lesson 9 */ 
 .left {
     border-style: solid;
     padding-left: 10px;
@@ -308,3 +308,4 @@ datalist {
 .h2 {
     text-align: center;
 }
+
