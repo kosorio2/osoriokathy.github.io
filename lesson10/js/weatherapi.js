@@ -19,4 +19,11 @@ fetch(requestURL)
 
         let temperature = response.main.temp;
         document.getElementById('current-temp').innerText = temperature; 
+
+
+        const imgUrl = "https://openweathermap.org/img/w/";
+        let icon = response.weather[0].icon + ".png";
+        let imgSrcUrl = imgUrl + icon; 
+
+        document.getElementById('icon').setAttribute('src', imgSrcUrl ); 
     }) 
