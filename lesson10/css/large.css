@@ -57,6 +57,13 @@ section {
         text-align: center;
     }
 
+    .weathersummary {
+        display: inline-block; 
+    }
+    .gallery-page {
+        display: block; 
+    }
+
 
     
     /*

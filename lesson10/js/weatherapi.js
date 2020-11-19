@@ -25,5 +25,7 @@ fetch(requestURL)
         let icon = response.weather[0].icon + ".png";
         let imgSrcUrl = imgUrl + icon; 
 
-        document.getElementById('icon').setAttribute('src', imgSrcUrl ); 
+
+        document.getElementById('icon').setAttribute('src', imgSrcUrl );
+        document.getElementById('icon').setAttribute('alt', 'description')
     }) 
