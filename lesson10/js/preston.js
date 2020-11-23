@@ -38,6 +38,7 @@ fetch(requestURL)
                 
                 let image = "https://openweathermap.org/img/w/" + item.weather[0].icon + ".png"
                 forecast_icon[forecast_day].setAttribute('src', image)
+                forecast_icon[forecast_day].setAttribute('alt', 'Image icon')
                 forecast_day++; 
             }
         }
