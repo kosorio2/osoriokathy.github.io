@@ -1,0 +1,91 @@
+@media only screen and (min-width: 750px) {
+
+    .forecast{
+        display: block;
+        width: 100%;
+    }
+    nav button {display: none;}
+
+    nav ul.hide {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav ul {
+        display: flex; 
+        margin-left: 2%;
+    }
+
+    nav ul li a{
+    border: none;
+    padding: .8rem 1rem; 
+    }
+
+    .table {
+        border: 1px solid black;
+        align-items: center;
+        text-align: center; 
+    }
+    td {
+        background-color: whitesmoke;
+        color: black; 
+    }
+    .contact-information {
+        height: 300px;
+    }
+    .map {
+        display: block;
+        float: right;
+        overflow: hidden;
+        height: 270px; 
+
+    }
+
+    .gallery {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .grid-item p {
+        width: 100%
+    }
+    /* lesson 9 */
+    /* .left {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-style: solid;
+    padding: 10px;
+    gap: 10px;
+} */
+
+.left {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.name {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.name:nth-child(odd) .photos {
+    grid-column: 1;
+}
+
+.name:nth-child(odd) .division {
+    padding-left: 10px;
+    grid-column: 2;
+    grid-row: 1;
+}
+.forecast{
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+.forecast-day {
+    border: 2px solid #427aa1;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+}

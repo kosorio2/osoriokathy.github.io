@@ -1,0 +1,83 @@
+@media only screen and (min-width: 64rem) {
+
+    nav button {display: none;}
+
+    header {
+       width: 100%; 
+    }
+    nav ul.hide {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    nav ul li {
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    nav ul li a{border: none;
+        padding: .8rem 1rem; 
+  
+    }
+
+.contact-information {
+    height: 250px;
+}
+.gallery {
+    padding: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    background-color: #d9f0ff
+}
+
+.grid-item p {
+    width: 100%
+}
+.grid-item:hover {
+    box-shadow: 0 0 20px #555;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    
+    }
+
+
+    .left {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center; 
+        
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .name {
+        display: block; 
+    }
+
+
+    .weathersummary {
+        display: inline-block; 
+    }
+    
+    .gallery-page {
+        display: block; 
+    }
+
+
+    
+    /*
+    .photos {
+        grid-template-columns: 1;
+        grid-row: 1;
+    } */ 
+
+
+}
+   
