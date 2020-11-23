@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Weather for Preston, Idaho">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico">
+    <title>Lesson 9 | Weather for Preston, Idaho</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+                
+            <section class="header">
+                <img id="logo" src="images/weathericon.png" alt="stormylogo">
+                <h1>Elemental Forecast</h1>
+
+            </section>
+            <div class="flex-container-wrapper">
+                <nav class="clearfix">
+                    <button onclick="toggleMenu()">&#9776;Menu</button>
+                    <ul id="primaryNav" class="hide">
+                        <li><a class="active" href="index.html">Home</a></li>
+                        <li><a href="preston-10.html">Preston</a></li>
+                        <li><a href="">Soda Springs</a></li>
+                        <li><a href="">Fish Haven</a></li>
+                        <li><a href="stormcenter.html">Storm Center</a></li>
+                        <li><a href="gallery-7.html">Gallery</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main> 
+            <h2 class="title">East Idaho Weather</h2>
+        <article class="top">
+
+            <article>
+            <div class="left">
+                <h2 class="h2">Today's News</h2>
+                <h3 class="title">East Idaho said to be hit by snow storm</h3>
+                <img src="images/snow.jpg" alt="Snow storm" class="snow">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Labore hic, doloremque similique corrupti sed sapiente quo 
+                    nobis ipsam, cumque asperiores consectetur explicabo! Fugiat
+                    ratione tempora facilis voluptate neque ipsum nulla! This 
+                    article was really great information!</p>
+                
+                </div>
+            </article>
+
+            <article>
+            <div class="left">
+                <h2 class="h2">Wondering what to do?</h2>
+                <h3 class="title">Fun things to do while in East Idaho</h3>
+                <img src="images/outdoors.jpg" alt="Photo of outdoor activity" class="outdoors">
+                <ul>
+                    <li>Golfing in Preston Idaho</li>
+                    <li>Visit the Geyser Park in Soda Springs</li>
+                    <li>Take a trip to Bear Lake</li>
+                    <li>Visit the Preston Night Rodeo</li>
+                    <li>Go camping on our beautiful grounds</li>
+                </ul>
+            </div>
+            </article>
+        </article>
+
+
+
+            <div id="cards"></div>
+            
+
+        </main>
+
+        <footer>
+            <p>&copy; <span id="Year"></span> | Kathy Osorio| Utah | <a class="footerlink"
+                    href="http://www.byui.edu/online">BYU-Idaho Online Learning</a> | Date: <span
+                    id="date"></span> </p>
+        </footer>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontLoad.js"></script>
+    <script src="js/dates.js"></script>
+    <script src="js/index.js"></script> 
+
+</body>
+
+</html>

@@ -57,9 +57,15 @@ section {
         text-align: center;
     }
 
+    .name {
+        display: block; 
+    }
+
+
     .weathersummary {
         display: inline-block; 
     }
+    
     .gallery-page {
         display: block; 
     }
