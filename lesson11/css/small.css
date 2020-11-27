@@ -144,7 +144,7 @@ nav ul.hide {display: none;}
 }
 .article {
     background-color:  #fbfefb; 
-    border: 1px solid black; 
+    border: 1px solid black;
     padding: 25px;
     margin: 20px;  
 }
@@ -306,5 +306,8 @@ datalist {
 
 .h2 {
     text-align: center;
+}
+.storm {
+    float: right; 
 }
 

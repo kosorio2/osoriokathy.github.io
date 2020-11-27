@@ -1,6 +1,6 @@
 const apiKey = "5b2bebd5b2367ff7f3d15413c4a3ce89"; 
-const apiURL = "https://api.openweathermap.org/data/2.5/";
-method = "forecast";  
+const apiURL = '//api.openweathermap.org/data/2.5/';
+let method = "weather";  
 let cityId   = "5604473"; 
 let units    = "imperial"; 
 
@@ -11,7 +11,41 @@ let requestURL = apiURL + method + "?" +
 
                 console.log(requestURL);
 
+            
+fetch(requestURL)
+    .then( response => response.json())
+    .then( response => {
+        const temp = response.main.temp_max;
+        const speed = response.wind.speed;
+        const descrip = response.weather[0].description; 
+        const humid = response.main.humidity; 
+        
+        document.getElementById('weather-currently').innerText = descrip; 
+        document.getElementById('high-temp').innerHTML = temp.toFixed(0) + ' &deg;F';
+        document.getElementById('weather-humidity').innerText = humid + '%'; 
+        document.getElementById('wind-speed').innerText = speed + ' mph'; 
+
+        let windChill = 'N/A';
+        if (temp <= 50 && speed > 3) {
+            windChill = 37.74 + 0.6215 * temp - 35.75 * speed ** 0.16 + 0.4275 * temp * speed ** 0.16; 
+            windChill = windChill.toFixed(0); 
+            windChill += ' &deg;F';
+        }
+        document.getElementById('wind-chill').innerHTML = windChill; 
+
+
+    })
+method = 'forecast';
+requestURL = apiURL + method + "?" +
+                 "id=" + cityId + 
+                 "&appid=" + apiKey +
+                 "&units=" + units;  
+
+                console.log(requestURL);
+
                 const day_week = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
+
+
 
 fetch(requestURL)
     .then( response => response.json())
