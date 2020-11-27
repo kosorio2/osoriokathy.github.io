@@ -1,7 +1,20 @@
+let cityId = ''; 
+
+page = document.location.pathname;
+
+if (page.includes('preston')){
+    cityId = 5604473; 
+}
+else if (page.includes('soda')){
+    cityId = 5607916;
+}
+else if (page.includes('fish')){
+    cityId = 5605242;
+} 
+
 const apiKey = "5b2bebd5b2367ff7f3d15413c4a3ce89"; 
 const apiURL = '//api.openweathermap.org/data/2.5/';
-let method = "weather";  
-let cityId   = "5604473"; 
+let method = "weather";   
 let units    = "imperial"; 
 
 let requestURL = apiURL + method + "?" +
@@ -35,6 +48,8 @@ fetch(requestURL)
 
 
     })
+
+
 method = 'forecast';
 requestURL = apiURL + method + "?" +
                  "id=" + cityId + 

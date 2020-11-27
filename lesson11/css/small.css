@@ -126,18 +126,6 @@ nav ul.hide {display: none;}
 }
 
 
-.weathersummary {
-    color: black;
-    position: absolute; 
-    top: 25px;
-    left: 20px; 
-    padding: 0.5rem; 
-    border: 2px solid;
-    background: radial-gradient(rgb(254, 255, 255), rgb(61, 69, 73));
-    opacity: .8;
-    box-shadow: 0 0 30px white;
-
-}
 
 .forecast{
     display: none;
@@ -150,7 +138,6 @@ nav ul.hide {display: none;}
 }
 .pumpkin {
     float: right; 
-    height: 150px;
 }
 #article-title {
     font-family:  'Monserrat', sans-serif;
@@ -162,9 +149,9 @@ nav ul.hide {display: none;}
 }
 .information{
     list-style-type: none;
-    text-align: left;
-    flex-direction: column; 
-    font-size: 25px;
+    padding: 10px;
+    font-size: 20px;
+    line-height: 30px;
 
 }
 
@@ -310,4 +297,18 @@ datalist {
 .storm {
     float: right; 
 }
+.fiveday {
+    display: none; 
+}
+.weathersummary {
+    position: realtive;
+    border: 2px solid;
+    text-align: center;
+    padding: 0.5rem;
+    background: radial-gradient(rgb(254, 255, 255), rgb(159, 164, 167));
+}
+.paragraph {
+    line-height: 8px;
+  }
+
 

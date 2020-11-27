@@ -69,6 +69,21 @@ section {
     .gallery-page {
         display: block; 
     }
+    .fiveday {
+        display: inline-block; 
+    }
+    .weathersummary {
+        color: black;
+        position: absolute; 
+        top: 25px;
+        left: 20px; 
+        padding: 0.5rem; 
+        border: 2px solid;
+        background: radial-gradient(rgb(254, 255, 255), rgb(159, 164, 167));
+        opacity: .8;
+        box-shadow: 0 0 30px white;
+    
+    }
 
 
     
