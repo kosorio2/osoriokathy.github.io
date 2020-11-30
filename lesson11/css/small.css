@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 body {
-    background-color: #fbfefb;
+    background-color: #fbfefbe7;
 }
 
 nav {
@@ -40,6 +40,7 @@ main {
     max-width: 960px;
     margin: 0 auto;
     padding: 10px;
+    
 }
 .sunny {
     width: 100%; 
@@ -81,8 +82,8 @@ nav ul li a:hover {
     
 }
 .contact-information {
-    background-color:  #fbfefb; 
-    border: 1px solid black; 
+    background-image: linear-gradient(to right, #fbfefb, lightgray); 
+    border: 2px solid black; 
     padding: 50px;
 }
 
@@ -131,8 +132,8 @@ nav ul.hide {display: none;}
     display: none;
 }
 .article {
-    background-color:  #fbfefb; 
-    border: 1px solid black;
+    background-image: linear-gradient(to right,#fbfefb, lightgray);
+    border: 2px solid black;
     padding: 25px;
     margin: 20px;  
 }
@@ -310,5 +311,21 @@ datalist {
 .paragraph {
     line-height: 8px;
   }
+.town-events {
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 2px solid black;
+    padding: 25px;
+    margin: 20px;
+    margin-top: 10px; 
+    text-align: center;
+    background-image: linear-gradient(to right,#fbfefb, lightgray );
+}
+
+.event-title {
+    font-size: 30px;
+    color: black;
+    text-shadow: 2px 5px 5px gray;
+}
 
 

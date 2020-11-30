@@ -91,5 +91,4 @@ fetch(requestURL)
                 forecast_day++; 
             }
         }
-
     }) 

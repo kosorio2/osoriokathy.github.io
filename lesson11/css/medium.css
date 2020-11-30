@@ -89,7 +89,8 @@
 }
 
 .forecast-day {
-    border: 2px solid #427aa1;
+    border: 2px solid black;
+    background: rgb(247, 244, 244);
     justify-content: center;
     margin: 10px;
     padding: 10px;
