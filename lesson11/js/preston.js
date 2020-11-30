@@ -86,8 +86,6 @@ fetch(requestURL)
                 forecast_temps[forecast_day].innerHTML = item.main.temp + "&deg;F"; 
                 
                 let image = "https://openweathermap.org/img/w/" + item.weather[0].icon + ".png"
-                image.setAttribute('src', image)
-                image.setAttribute('alt', 'Image icon')
                 forecast_icon[forecast_day].setAttribute('src', image)
                 forecast_icon[forecast_day].setAttribute('alt', 'Image icon')
                 forecast_day++; 
