@@ -302,7 +302,7 @@ datalist {
     display: none; 
 }
 .weathersummary {
-    position: realtive;
+    position: relative;
     border: 2px solid;
     text-align: center;
     padding: 0.5rem;
