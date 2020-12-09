@@ -73,7 +73,6 @@
     }
     footer {
         display: grid;
-        grid-gap: 30px 20px 10px;
         /* grid-template-columns: repeat(3, 1fr); */
         /* font-size: 18px; */
     }
