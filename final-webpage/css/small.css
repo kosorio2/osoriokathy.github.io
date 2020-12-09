@@ -76,7 +76,7 @@ main, body {
     display: flex; 
     justify-content: center;
     font-family: 'Crimson Text', serif; 
-    font-size: 60px;
+    font-size: 40px;
     padding:5px;
     margin:5px;
 }
@@ -84,7 +84,7 @@ main, body {
     display: flex; 
     justify-content: center;
     font-family: 'EB Garamond', serif;
-    font-size: 20px;
+    font-size: 15px;
     padding:5px;
     margin:5px;
 }
@@ -96,11 +96,11 @@ main, body {
     color: black;
     position: absolute; 
     text-align: center;
-    top: 50px;
+    top: 30px;
     left: 30px; 
-    padding: 20px; 
-    width: 150px;
-    height: 50px;
+    padding: 10px; 
+    width: 175px;
+    height: 60px;
     border: 1px solid;
     background: radial-gradient(rgb(254, 255, 255), rgb(159, 164, 167));
     opacity: .7;
@@ -112,15 +112,62 @@ main, body {
     line-height: 2em;
     width: 100px;
     font-size: 10px;
+    border-radius: 10%;
 }
 .command {
-    font-size: 10px;
+    font-size: 12px;
     font-weight: bold;
+}
+
+h2 {
+    font-family: 'Crimson Text', serif;
+    font-size: 25px;
+}
+p {
+    font-family: 'EB Garamond', serif;
+}
+
+.information {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    width: 500px;
+}
+
+#left {
+    padding: 10px;
+    margin-top: 3rem;
+    margin-left: 10px;
+    border-radius: 5px;
+    text-align: center;
+    border-style: solid;
+
+}
+
+#right {
+    padding: 10px;
+    margin-top: 3rem;
+    margin-left: 10px;
+    border-radius: 5px;
+    text-align: center;
+    border-style: solid;
+
+}
+
+
+.link {
+    padding: 10px;
+    font-size: 30px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
 }
 
 
 
 footer {
+    font-size: 15px;
     font-family: 'Monserrat', sans-serif;
     background-image: linear-gradient(to right,#ffb627, #ffc971 );
     text-align: center;

@@ -69,7 +69,7 @@ fetch(requestURL)
                 let date = new Date(item.dt * 1000); 
 
                 forecast_dow[forecast_day].innerHTML = day_week[date.getDay()];
-                forecast_temps[forecast_day].innerHTML = item.main.temp + "&deg;F"; 
+                forecast_temps[forecast_day].innerHTML = item.main.temp.toFixed(0) + "&deg;F"; 
                 
                 let image = "https://openweathermap.org/img/w/" + item.weather[0].icon + ".png"
                 // image.setAttribute('class', "photos" )

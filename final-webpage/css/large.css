@@ -17,4 +17,64 @@
         opacity: .7;
         box-shadow: 0 0 30px white;
     }
+    .information {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 10px;
+        height: 500px;
+    }
+
+    .title {
+        font-size: 80px;
+    }
+
+    .catchy {
+        font-size: 20px;
+    }
+    
+    #left {
+        padding: 10px;
+        margin-top: 3rem;
+        margin-left: 1rem;
+        border-radius: 5px;
+        text-align: center;
+        border-style: solid;
+    
+    }
+    
+    #right {
+        padding: 10px;
+        text-align: center;
+        border-style: solid;
+        margin-top: 3rem;
+        margin-right: 1rem;
+        border-radius: 5px;
+    
+    }
+    .link {
+        width: 50px;
+    }
+
+    .contact {
+        padding-top: 10px;
+        grid-column: 1/1;
+        grid-row: 1;
+        text-align: left;
+    }
+    .modification {
+        padding-top: 70px;
+        grid-row: 1;
+        grid-column: 2/2;
+    }
+    .social {
+        padding-top: 30px;
+        grid-row: 1;
+        grid-column: 3/3;
+    }
+    footer {
+        display: grid;
+        grid-gap: 30px 20px 10px;
+        /* grid-template-columns: repeat(3, 1fr); */
+        /* font-size: 18px; */
+    }
 }
