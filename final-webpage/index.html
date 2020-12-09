@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Weather for Preston, Idaho">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico">
+    <title>Final Project - Scoots Website</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+                
+            <section class="header">
+                <img class="logo" src="images/logo.png" alt="scoots logo">
+
+        
+            </section>
+
+            <div class="slogan">
+                <p class="title">Scoots</p>
+                <p class="catchy">Making Your Trip Easier Than Ever!</p>
+            </div>
+
+
+            <div class="flex-container-wrapper">
+                <nav class="clearfix">
+                    <button onclick="toggleMenu()">&#9776;Menu</button>
+                    <ul id="primaryNav" class="hide">
+                        <li><a class="active" href="index.html">Home</a></li>
+                        <li><a href="">Rentals</a></li>
+                        <li><a href="">Reservations</a></li>
+                        <li><a href="">Tours</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main> 
+
+            <div class="mainimage">
+                <picture class="mainimage">
+                    <source media="(max-width: 426px)" srcset="images/sunrise-426px.jpg 426w" sizes="426px">
+                    <source media="(max-width: 512px)" srcset="images/sunrise-512px.jpg 512w" sizes="512px">
+                    <source media="(max-width: 960px)" srcset="images/sunrise-960px.jpg 960w" sizes="960px">
+                    <img class="sunny" src="images/sunrise-original.jpg" alt="Sunrise Image">
+                </picture>
+
+                <section class="action">
+                <p class="command">
+                    Let's Find Your Perfect Ride!
+                </p>
+                  <button class="command-button">
+                    Reserve
+                  </button>
+                </section>
+
+
+            </div>
+            <h3 class="fiveday">Upcoming Forecast</h3>
+
+            <div class="weather-report">
+
+
+
+            <div class="forecast">
+                <div class="weathersummary">
+                    <div><p><b>Currently: <span id="weather-currently">50</span></b></p></div>
+                    <div><p><b>High: <span id="high-temp">50</span></b></p></div>
+                </div>
+                <div class="forecast-day">
+                    <div class="dow"></div>
+                    <div class="temp"></div>
+                    <img src="images/imageholder.jpg" alt="placeholder" class="icon">
+                </div>
+                <div class="forecast-day">
+                    <div class="dow"></div>
+                    <div class="temp"></div>
+                    <img src="images/imageholder.jpg" alt="placeholder" class="icon">
+                </div>
+                <div class="forecast-day">
+                    <div class="dow"></div>
+                    <div class="temp"></div>
+                    <img src="images/imageholder.jpg" alt="placeholder" class="icon">
+                </div>
+                <div class="forecast-day">
+                    <div class="dow"></div>
+                    <div class="temp"></div>
+                    <img src="images/imageholder.jpg" alt="placeholder" class="icon">
+                </div>
+                <div class="forecast-day">
+                    <div class="dow"></div>
+                    <div class="temp"></div>
+                    <img src="images/imageholder.jpg" alt="placeholder" class="icon">
+                </div>
+
+            </div>
+            </div>
+
+            <article class="information">
+                <div id="left">
+                    <h2 class="heading">Playa Del Carmen</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Labore hic, doloremque similique corrupti sed sapiente quo 
+                    nobis ipsam, cumque asperiores consectetur explicabo! Fugiat
+                    ratione tempora facilis voluptate neque ipsum nulla! This 
+                    article was really great information!</p>
+                    <img src="images/beach.jpg" alt="image of the beach">
+                
+                </div>
+
+
+                <div id="right">
+                    <h2 class="heading">Terminal Puerta Maya</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Labore hic, doloremque similique corrupti sed sapiente quo 
+                    nobis ipsam, cumque asperiores consectetur explicabo! Fugiat
+                    ratione tempora facilis voluptate neque ipsum nulla! This 
+                    article was really great information!</p>
+                    <img src="images/scooter-beach.jpg" alt="people riding scooters on a beach">
+                </div>
+                
+
+            </article>
+            
+
+
+
+        </main>
+
+        <footer>
+            <p>Contact:</p>
+            <p>Phone Number: 555-222-3333</p>
+            <p>Hours: Monday - Saturday 9am-7pm</p>
+            <p>&copy; <span id="Year"></span> | Kathy Osorio| Utah | <a class="footerlink" href="http://www.byui.edu/online">BYU-Idaho Online Learning</a> | Modified: <span id="Modified"></span> </p>
+        </footer>
+    </div>
+
+    <script src="js/dates.js"></script> 
+    <script src="js/weather.js"></script>
+</body>
+
+</html>

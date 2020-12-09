@@ -1,0 +1,20 @@
+@media only screen and (min-width: 64rem) {
+    .action {
+        display: inline-block; 
+    
+    }
+    .action {
+        color: black;
+        position: absolute; 
+        top: 200px;
+        left: 650px; 
+        padding: 1rem; 
+        width: 400px;
+        height: 100px;
+        gap: 10px;
+        border: 1px solid;
+        background: radial-gradient(rgb(254, 255, 255), rgb(159, 164, 167));
+        opacity: .7;
+        box-shadow: 0 0 30px white;
+    }
+}

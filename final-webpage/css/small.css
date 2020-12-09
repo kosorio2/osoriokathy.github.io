@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,600&display=swap');
+
+.forecast, .fiveday{
+    display: none;
+}
+
+header, main, body{
+    background-color: #f3e9dc;
+}
+header {
+    gap: 20px;
+}
+nav {
+    background-image: linear-gradient(to right,#ffb627, #ffc971 );
+    text-align: center; 
+    padding: .5em;
+    box-shadow: 0 2px 10px; 
+}
+nav a.active {
+    text-decoration: underline;
+    color: black; 
+}
+nav ul {
+    overflow: hidden; 
+    padding: 0; 
+    margin: 0; 
+    list-style: none;
+}
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none; 
+    font-size: 20px;
+    color: black 
+}
+nav li a {
+    display: block; 
+    text-align: center; 
+    padding: 1rem; 
+    text-decoration: none;
+    font-size: 18px; 
+    color: black
+}
+
+nav ul li a {
+    display: block; 
+    padding: .8rem 2%;
+    text-decoration: none;
+    color:  black;
+
+}
+nav ul li a:hover {
+    background-color: #fdd65f;
+    color: black; 
+    
+}
+nav ul.hide {display: none;}
+
+main, body {
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.sunny {
+    width: 100%;
+}
+.header {
+    padding-top: 10px;
+    display: flex; 
+    justify-content: center;
+    padding:0px;
+    margin:5px;
+}
+.title {
+    display: flex; 
+    justify-content: center;
+    font-family: 'Crimson Text', serif; 
+    font-size: 60px;
+    padding:5px;
+    margin:5px;
+}
+.catchy {
+    display: flex; 
+    justify-content: center;
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+    padding:5px;
+    margin:5px;
+}
+.mainimage {
+    position: relative;
+    border: 1px;
+}
+.action {
+    color: black;
+    position: absolute; 
+    text-align: center;
+    top: 50px;
+    left: 30px; 
+    padding: 20px; 
+    width: 150px;
+    height: 50px;
+    border: 1px solid;
+    background: radial-gradient(rgb(254, 255, 255), rgb(159, 164, 167));
+    opacity: .7;
+    box-shadow: 0 0 30px white;
+}
+
+.action button {
+    background-color: #EDEFF2;
+    line-height: 2em;
+    width: 100px;
+    font-size: 10px;
+}
+.command {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+
+
+footer {
+    font-family: 'Monserrat', sans-serif;
+    background-image: linear-gradient(to right,#ffb627, #ffc971 );
+    text-align: center;
+    margin: 0 auto; 
+    padding: 0.5em; 
+    color: black;
+
+}
