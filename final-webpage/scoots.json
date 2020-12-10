@@ -1,0 +1,62 @@
+{
+    "model": "Honda Metro Scooter",
+    "max": "1",
+    "reservationPrice": {
+      "halfDay": "$20",
+      "fullDay": "$30"
+    },
+    "walkInPrice": {
+      "halfDay": "$25",
+      "fullDay": "$35"
+    },
+    "model-2": "Honda Dio Scooter",
+    "max-2": "2",
+    "reservationPrice-2": {
+      "halfDay": "$30",
+      "fullDay": "$40"
+    },
+    "walkInPrice-2": {
+      "halfDay": "$35",
+      "fullDay": "$45"
+    },
+    "model-3": "Honda PCX150 Scooter",
+    "max-3": "2",
+    "reservationPrice-3": {
+      "halfDay": "$40",
+      "fullDay": "$50"
+    },
+    "walkInPrice-3": {
+      "halfDay": "$45",
+      "fullDay": "$55"
+    },
+    "model-4": "Honda Pioneer ATV",
+    "max-4": "4",
+    "reservationPrice-4": {
+      "halfDay": "$50",
+      "fullDay": "$70"
+    },
+    "walkInPrice-4": {
+      "halfDay": "$65",
+      "fullDay": "$80"
+    },
+    "model-5": "Jeep Wrangler - 4 door with a/c",
+    "max-5": "5",
+    "reservationPrice-5": {
+      "halfDay": "$70",
+      "fullDay": "$100"
+    },
+    "walkInPrice-5": {
+      "halfDay": "$85",
+      "fullDay": "$120"
+    },
+    "model-6": "Jeep Wrangler - 2 door",
+    "max-6": "4",
+    "reservationPrice-6": {
+      "halfDay": "$60",
+      "fullDay": "$85"
+    },
+    "walkInPrice-6": {
+      "halfDay": "$70",
+      "fullDay": "$90"
+    }
+  }

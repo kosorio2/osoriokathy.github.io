@@ -55,25 +55,8 @@
         width: 50px;
     }
 
-    .contact {
-        padding-top: 10px;
-        grid-column: 1/1;
-        grid-row: 1;
-        text-align: left;
-    }
-    .modification {
-        padding-top: 70px;
-        grid-row: 1;
-        grid-column: 2/2;
-    }
-    .social {
-        padding-top: 30px;
-        grid-row: 1;
-        grid-column: 3/3;
-    }
-    footer {
-        display: grid;
-        /* grid-template-columns: repeat(3, 1fr); */
-        /* font-size: 18px; */
+    .footer {
+        display: flex;
+        justify-content: space-around;
     }
 }
