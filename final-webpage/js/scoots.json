@@ -1,0 +1,58 @@
+{"rentals": [
+  {
+    "model": "Honda Metro Scooter",
+    "max": "1",
+    "reservedHalf": "$20",
+    "reservedFull": "$30",
+    "walkHalf": "$25",
+    "walkFull": "$35",
+    "photo": "metro.jpg"
+    },
+    {
+    "model": "Honda Dio Scooter",
+    "max": "2",
+    "reservedHalf": "$30",
+    "reservedFull": "$40",
+    "walkHalf": "$35",
+    "walkFull": "$45",
+    "photo": "dio.jpg"
+    },
+    {
+    "model": "Honda PCX150 Scooter",
+    "max": "2",
+    "reservedHalf": "$40",
+    "reservedFull": "$50",
+    "walkHalf": "$45",
+    "walkFull": "$55",
+    "photo": "pcx150.jpg"
+    },
+    {
+    "model": "Honda Pioneer ATV",
+    "max": "4",
+    "reservedHalf": "$50",
+    "reservedFull": "$70",
+    "walkHalf": "$65",
+    "walkFull": "$80",
+    "photo": "pioneer.jpg"
+    },
+    {
+    "model": "Jeep Wrangler - 4 door with a/c",
+    "max": "5",
+    "reservedHalf": "$70",
+    "reservedFull": "$100",
+    "walkHalf": "$85",
+    "walkFull": "$120",
+    "photo": "wrangler.jpg"
+    },
+    {
+    "model": "Jeep Wrangler - 2 door",
+    "max": "4",
+    "reservedHalf": "$60",
+    "reservedFull": "$85",
+    "walkHalf": "$70",
+    "walkFull": "$90",
+    "photo": "jeep.jpg"
+    }
+  ]
+}
+

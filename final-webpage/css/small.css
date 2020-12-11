@@ -169,7 +169,9 @@ p {
 .agreement {
     display: flex; 
     justify-content: center;
+
 }
+
 
 .top input:required {
     border-left: 6px solid red;
@@ -242,6 +244,62 @@ textarea {
 .agreement-list {
     font-family: 'EB Garamond', serif;
     font-size: 16px;
+    border: 2px solid black;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+
+.agreement-list li {
+    margin-bottom: 5px;
+}
+
+/* table */
+
+table {
+    border-collapse: collapse;
+}
+
+.tables {
+    width: 100%;
+}
+table img {
+    display: none;
+}
+
+#images {
+    display: none;
+}
+th {
+    background-color: #ffc971;
+    color: black;
+}
+
+td,th {
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid black;
+    padding: 8px;
+}
+
+caption {
+    background-color: #ffc971;
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+/* tr:nth-child(even) {
+    background-color: #e7ffed;
+}
+tr:nth-child(odd) {
+    background-color: #e7f0ed;
+} */
+
+main {
+    font-family: 'Ubuntu', sans-serif;
 }
 
 

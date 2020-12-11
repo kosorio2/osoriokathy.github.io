@@ -16,16 +16,17 @@
 <body>
     <div class="wrapper">
         <header>
-                
-            <section class="header">
-                <img class="logo" src="images/logo.jpg" alt="scoots logo">
+            <div class="header">  
+                <section id="header">
+                    <img class="logo" src="images/logo.jpg" alt="scoots logo">
 
         
-            </section>
+                </section>
 
-            <div class="slogan">
-                <p class="title">Scoots</p>
-                <p class="catchy">Making Your Trip Easier Than Ever!</p>
+                <div class="slogan">
+                    <p class="title">Scoots</p>
+                    <p class="catchy">Making Your Trip Easier Than Ever!</p>
+                </div>
             </div>
 
 
@@ -33,9 +34,9 @@
                 <nav class="clearfix">
                     <button onclick="toggleMenu()">&#9776;Menu</button>
                     <ul id="primaryNav" class="hide">
-                        <li><a class="active" href="index.html">Home</a></li>
-                        <li><a href="">Rentals</a></li>
-                        <li><a href="">Reservations</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a class="active" href="rentals.html">Rentals</a></li>
+                        <li><a href="reservations.html">Reservations</a></li>
                         <li><a href="">Tours</a></li>
                         <li><a href="">Contact</a></li>
                     </ul>
@@ -43,55 +44,44 @@
             </div>
         </header>
 
-        <main> 
+<body>
 
-            <table id="table">
-                <caption>Max Persons and Price Chart(Included Tax)</caption>
+        <main> 
+            <div class="agreement">
+
+
+                <ul class="agreement-list">
+                    <h2>Information For Our Rentals: </h2>
+                    <li>A $50 security deposit is required to confirm reservation.</li>
+                    <li>A valid drivers license is required in hand at time of rental.</li>
+                    <li>No one under 12 years of age are allowed to ride on the scooters.</li>
+                    <li>Fuel charge not included.</li>
+                    <li>Unlimited mileage.</li>
+                    <li>Liability insurance is free of charge.</li>
+                    <li>Reservations rate requires 24 hour prior notification.</li>
+                    <li>Free delivery to Cozumel hotel, Airbnb, or private residence for 2+ day rentals.</li>
+                    <li>Payment via Google Pay, cash, credit card, debit card, or PayPal.</li>
+                    <li>Rentals may be returned to either location.</li>
+                </ul>
+            </div>
+            <table id="tables">
+                <caption>Max Persons and Price Chart (Includes Tax)</caption>
                 <tr>
-                    <td colspan="2"></td>
-                    <td>Reservations</td>
-                    <td>Walk-In</td>
+                    <td colspan="3"></td>
+                    <td colspan="2">Reservation</td>
+                    <td colspan="2">Walk-In</td>
                 </tr>
                 <tr class="titles">
                     <th>Rental Type</th>
-                    <th>Max Persons</th>
-                    <th>Sales Goals</th>
+                    <th id="images">Image</th>
+                    <th>Max. Persons</th>
+                    <th>Half Day (3 hours)</th>
+                    <th>Full Day</th>
+                    <th>Half Day (3 hours)</th>
+                    <th>Full Day</th>
     
                 </tr>
-                <tbody>
-                    <tr>
-                        <td>August</td>
-                        <td>$3,590</td>
-                        <td>$4,000</td>
-                    </tr>
-                    <tr>
-                        <td>September</td>
-                        <td>$4,420</td>
-                        <td>$5,000</td>
-                    </tr>
-                    <tr>
-                        <td>October</td>
-                        <td>$4,870</td>
-                        <td>$5,000</td>
-                    </tr>
-                    <tr>
-                        <td>November</td>
-                        <td>$8,610</td>
-                        <td id="november">$7,500</td>
-                    </tr>
-                    <tr>
-                        <td><i>Black Friday</i></td>
-                        <td colspan="2">$3,200</td>
-                    </tr>
-                    <tr>
-                        <td>December</td>
-                        <td>$6,820</td>
-                        <td>$7,500</td>
-                    </tr>
-                    <tr style="justify-content: center;"></tr>
-                </tbody>
-                <tfoot><td colspan="3" class="end">12.20.2020 by bRauls</td></tfoot>
-    
+
             </table>
             
                 
@@ -100,27 +90,31 @@
 
         </main>
 
-    <footer>
-        <div class="footer"></div>
-            <div class="modification">
-                <div><p>&copy; <span id="Year"></span> | Kathy Osorio| Utah | <a class="footerlink" href="http://www.byui.edu/online">BYU-Idaho Online Learning</a> | Modified: <span id="Modified"></span> </p></div>
+        <footer>
+            <div class="footer">
+    
+                <div class=contact>
+                    <div><p><b>Contact:</b></p></div>
+                    <div><p><b>Phone Number:&nbsp;</b>555-222-3333</p></div>
+                    <div><p><b>Hours:&nbsp;</b>Monday - Saturday 9am-7pm</p></div>
+                </div>
+    
+                <div class="modification">
+                    <div><p>&copy; <span id="Year"></span> | Kathy Osorio| Utah | <a class="footerlink" href="http://www.byui.edu/online">BYU-Idaho Online Learning</a> | Modified: <span id="Modified"></span> </p></div>
+                </div>
+    
+                <div class="social">
+                    <a target="_blank" href="https//www.facebook.com/"><img class="link" src="images/facebook.jpg" alt="Facebook Icon"></a>
+                    <a target="_blank" href="https://www.instagram.com/"><img class="link" src="images/instagram.jpg" alt="Instagram Icon"></a>
+                    <a target="_blank" href="https://www.twitter.com/"><img class="link" src="images/twitter.jpg" alt="Twitter Icon"></a>
+                </div>
             </div>
-            <div class="social">
-                <a target="_blank" href="https//www.facebook.com/"><img class="link" src="images/facebook.jpg" alt="Facebook Icon"></a>
-                <a target="_blank" href="https://www.instagram.com/"><img class="link" src="images/instagram.jpg" alt="Instagram Icon"></a>
-                <a target="_blank" href="https://www.twitter.com/"><img class="link" src="images/twitter.jpg" alt="Twitter Icon"></a>
-            </div>
-            <div class=contact>
-                <div><p><b>Contact:</b></p></div>
-                <div><p><b>Phone Number:&nbsp;</b>555-222-3333</p></div>
-                <div><p><b>Hours:&nbsp;</b>Monday - Saturday 9am-7pm</p></div>
-            </div>
-        </div>
     </footer>
 </div>
 
     <script src="js/dates.js"></script> 
     <script src="js/weather.js"></script>
+    <script src="js/reservations.js"></script>
 </body>
 
 </html>
