@@ -118,4 +118,14 @@ table img {
 #images {
     display: table-cell;
 }
+
+/* tours page  */
+
+.gallery {
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-item p {
+    width: 100%
+}
 }

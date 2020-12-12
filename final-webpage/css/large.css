@@ -55,6 +55,35 @@
         width: 50px;
     }
 
+    .gallery {
+        padding: 30px;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 2rem;
+    }
+    
+    .grid-item p {
+        width: 100%
+    }
+    .grid-item:hover {
+        box-shadow: 0 0 20px #555;
+    }
+
+    .location {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .history-title {
+        text-align: center;
+        font-size: 30px;
+        font-family: 'EB Garamond', serif;
+    }
+
+    p {
+        font-family: 'EB Garamond', serif;
+        text-emphasis: none;
+    }
+
     .footer {
         display: flex;
         justify-content: space-around;
