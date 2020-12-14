@@ -84,6 +84,60 @@
         font-family: 'EB Garamond', serif;
         text-emphasis: none;
     }
+    .map {
+        display: flex;
+        justify-content: center;
+        gap: 30px; 
+    }
+    .playa-carmen {
+        padding-top: 20px;
+    }
+
+    .puerta-maya {
+        padding-top: 20px;
+    }
+
+
+    .rental-title {
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Crimson Text', serif;
+    }
+
+    .writting {
+        text-align: center;
+        padding-top: 90px;
+        font-weight: bold;
+    }
+
+    .contact-form {
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    .container {
+        position: relative;
+      }
+      .container .content {
+        position: absolute;
+        top: 0; 
+        background: rgb(0, 0, 0); 
+        background: rgba(31, 30, 30, 0.5); 
+        color: #f1f1f1; 
+        width: 215px; 
+        padding: 20px;
+        text-align: left;
+        font-size: 14px;
+      }
+    
+      .container:hover {
+        box-shadow: 0 0 20px #555;
+    
+      }
+      .rental-options {
+        gap: 40px;
+      }
 
     .footer {
         display: flex;
