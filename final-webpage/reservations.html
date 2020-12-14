@@ -14,7 +14,6 @@
 </head>
 
 <body>
-    <div class="wrapper">
         <header>
                 
             <div class="header">  
@@ -51,7 +50,7 @@
 
 
                 <ul class="agreement-list">
-                    <h2>Please be Aware of the Following: </h2>
+                    <li><h2>Please be Aware of the Following: </h2></li>
                     <li>A $50 security deposit is required to confirm reservation.</li>
                     <li>A valid drivers license is required in hand at time of rental.</li>
                     <li>No one under 12 years of age are allowed to ride on the scooters.</li>
@@ -71,17 +70,18 @@
                         <label class="top">Today's Date<input type="date" name="tdate"></label>
                     
         
-                        <label class="top" for="cruise" id="cruise-line">Cruise Line (If Applicable)<input list="cruise-list" id="cruise-line" name="cruise"></label>
+                        <label class="top" for="cruise" id="cruises">Cruise Line (If Applicable)<input list="cruise-list" id="cruise-line" name="cruise"></label>
                         <datalist id="cruise-list">
                             <option value="Sirena">
                             <option value="Riviera">
                             <option value="Marina">
                             <option value="Regatta">
                         </datalist>
-        
+
+                
                     
-                        <label class="top" for="location" id="area">Rental Type
-                            <select name="rental" id="type">
+                        <label class="top" for="renting" id="area">Rental Type
+                            <select name="rentals" id="renting">
                                 <option value="" selected disabled>Select Rental Type</option>
                                 <option value="metro">Honda Metro Scooter</option>
                                 <option value="dio">Honda Dio Scooter</option>
