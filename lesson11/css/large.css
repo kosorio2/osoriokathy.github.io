@@ -1,25 +1,24 @@
 @media only screen and (min-width: 64rem) {
 
-    nav button {display: none;}
+nav button {display: none;}
 
-    header {
-       width: 100%; 
-    }
-    nav ul.hide {
-        display: flex;
-        justify-content: space-around;
-    }
+header {
+    width: 100%; 
+}
+nav ul.hide {
+    justify-content: space-around;
+    display: flex;
+}
 
-    nav ul li {
-        display: flex;
-        justify-content: space-around;
+nav ul li {
+    justify-content: space-around;
+    display: flex;
 
-    }
+}
 
-    nav ul li a{border: none;
-        padding: .8rem 1rem; 
-  
-    }
+nav ul li a{border: none;
+    padding: .8rem 1rem; 
+}
 
 .contact-information {
     height: 250px;
@@ -43,53 +42,48 @@ section {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
     
-    }
+}
 
 
-    .left {
-       display: block;
+.left {
+    display: block;
         
-    }
+}
 
-    .title {
-        text-align: center;
-    }
+.title {
+    text-align: center;
+}
 
-    .name {
-        display: block; 
-    }
+.name {
+    display: block; 
+}
 
 
-    .weathersummary {
-        display: inline-block; 
-    }
+.weathersummary {
+    display: inline-block; 
+}
     
-    .gallery-page {
-        display: block; 
-    }
-    .fiveday {
-        display: inline-block; 
-    }
-    .weathersummary {
-        color: black;
-        position: absolute; 
-        top: 25px;
-        left: 20px; 
-        padding: 0.5rem; 
-        border: 2px solid;
-        background: radial-gradient(rgb(254, 255, 255), rgb(159, 164, 167));
-        opacity: .8;
-        box-shadow: 0 0 30px white;
-    
-    }
+.gallery-page {
+    display: block; 
+}
+.fiveday {
+    display: inline-block; 
+}
+.weathersummary {
+    position: absolute; 
+    color: black;
+    left: 20px; 
+    top: 25px;
+    border: 2px solid;
+    padding: 0.5rem; 
+    opacity: .8;
+    background: radial-gradient(rgb(254, 255, 255), rgb(159, 164, 167));
+    box-shadow: 0 0 30px white;
+}
 
-
-    
-    /*
-    .photos {
-        grid-template-columns: 1;
-        grid-row: 1;
-    } */ 
+.information {
+    width: 500px;
+}
 
 
 }
