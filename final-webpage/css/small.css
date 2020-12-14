@@ -335,14 +335,13 @@ main {
     justify-content: center;
 }
 
-  .rental-options {
-      display: flex;
-      justify-content: center;
-  }
+
 
 .contact-form {
     display: flex;
     justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
     width: 100%;
 }
 
@@ -355,20 +354,49 @@ input[type=text], select, textarea {
     margin-top: 6px;
     margin-bottom: 14px;
     resize: vertical;
-  }
+}
   
-  input[type=submit] {
+input[type=submit] {
     background-color: #ffb627;
     color: black;
     padding: 10px 18px;
     border: 1px solid black;
     border-radius: 4px;
-  }
+}
   
-  input[type=submit]:hover {
+input[type=submit]:hover {
     background-color: #ffc971;
-  }
+}
+.container {
+    position: relative;
+}
+.container .content {
+    top: 0; 
+    position: absolute;
+    background: rgb(0, 0, 0); 
+    background: rgba(31, 30, 30, 0.5); 
+    color: #f1f1f1; 
+    width: 215px; 
+    padding: 20px;
+    text-align: left;
+    font-size: 14px;
+}
+.rental-options {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 60px;
+    padding-bottom: 30px;
+    gap: 40px;
+}
 
+.map {
+    display: grid;
+    font-weight: bold;
+    grid-template-columns: 1fr;
+    padding-left: 60px;
+    gap: 10px; 
+    border: 1px solid black;
+}
 
 footer {
     font-size: 15px;
