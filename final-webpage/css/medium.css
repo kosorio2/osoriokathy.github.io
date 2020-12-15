@@ -128,4 +128,15 @@ table img {
 .grid-item p {
     width: 100%
 }
+
+.container {
+    display: grid;
+    justify-content: 1fr 1fr;
+    justify-content: center;
+    max-width:100%;
+}
+.map {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 }
