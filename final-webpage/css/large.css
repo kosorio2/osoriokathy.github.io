@@ -132,10 +132,7 @@
         font-size: 14px;
       }
     
-      .container:hover {
-        box-shadow: 0 0 20px #555;
-    
-      }
+
 .rental-options {
         display: flex;
         justify-content: center;

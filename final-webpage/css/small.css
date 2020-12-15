@@ -398,6 +398,16 @@ input[type=submit]:hover {
     border: 1px solid black;
 }
 
+.payment {
+    display: grid;
+    justify-content: center;
+    gap: 50px;
+}
+
+.paying {
+    text-align: center;
+}
+
 footer {
     font-size: 15px;
     font-family: 'Monserrat', sans-serif;

@@ -36,7 +36,7 @@
                     <button onclick="toggleMenu()">&#9776;Menu</button>
                     <ul id="primaryNav" class="hide">
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="">Rentals</a></li>
+                        <li><a href="rentals.html">Rentals</a></li>
                         <li><a class="active" href="reservations.html">Reservations</a></li>
                         <li><a href="tours.html">Tours</a></li>
                         <li><a href="contact.html">Contact</a></li>
@@ -46,10 +46,28 @@
         </header>
 
         <main> 
-            <h1 class="submitted">Storm Center Form Submitted</h1>
-            <p class="submitted">Thanks you for your submission. 
-            We will report the information. <p class="submitted"> 
-            If you are in danger, seek shelter. Help is on the way</p>
+            <h2 class="submitted">Your Reservation Is Almost Ready</h2>
+            <p class="paying">Please add payment information to hold your reservation</p>
+            <p class="paying">*You will not be charged until the day you pick up your rental</p>
+            <div class="payment">
+                <form method="get" action="thanks.html">
+                    <fieldset>
+                        <label class="top" for="fname">Full Name<input type="text" id="fname" name="firstname"></label>
+
+                        <label class="top" for="cardNum" required>Card Number<input type="tel" id="cardNum" placeholder="0000 0000 0000 0000"></label>
+                
+                        <label class="top" for="cardExp" required>Expires<input type="tel" id="cardExp" placeholder="MM/YY"></label>
+                
+                        <label class="top" for="cardCVC" required>CVC<input type="tel" id="cardCVC" placeholder="***"></label>
+
+                        <label class="top">Additional Information</label>
+                        <textarea name="additionalinfo" rows="4" cols="50"></textarea>
+                
+                    
+                        <input type="submit" value="Submit">
+                    </fieldset>
+                </form>
+            </div>
 
 
         </main>
