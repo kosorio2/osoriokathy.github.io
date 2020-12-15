@@ -408,6 +408,10 @@ input[type=submit]:hover {
     text-align: center;
 }
 
+.thanks-contact {
+    text-align: center;
+}
+
 footer {
     font-size: 15px;
     font-family: 'Monserrat', sans-serif;
